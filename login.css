@@ -1,0 +1,41 @@
+body {
+  background-color: #e8e8e8;
+  font-family: serif;
+}
+
+.login_container {
+  margin: 0 auto;
+  width: 300px;
+  height: 250px;
+  border: none;
+  border-radius: 10px 10px 10px 10px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.username_input {
+  max-width: 50%;
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: #8a8a8a;
+}
+
+.ps_input {
+  max-width: 50%;
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: #8a8a8a;
+}
+
+.sign_in_btn {
+  border: none;
+  width: 90px;
+  height: 20px;
+  border-radius: 15px 15px 15px 15px;
+  background-color: #24a0ed;
+  font-size: 10px;
+  color: white;
+}
