@@ -1,10 +1,15 @@
 body {
   background-color: #e8e8e8;
-  font-family: serif;
+  font-family: monospace;
 }
 
 .login_container {
-  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
   width: 300px;
   height: 250px;
   border: none;
@@ -38,4 +43,5 @@ body {
   background-color: #24a0ed;
   font-size: 10px;
   color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
